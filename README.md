@@ -1,5 +1,10 @@
 # 🧠 ANN for MNIST
 
+## 🔄 Sequence Diagram
+This sequence diagram illustrates the flow of data from dataset loading to training and evaluation.
+
+![Sequence Diagram](uml%20ann.png)
+
 ## 🚀 Overview
 This project implements an **Artificial Neural Network (ANN)** for classifying handwritten digits from the **MNIST dataset**. The model is built using **PyTorch** and utilizes **torchvision** for dataset preprocessing.
 
@@ -63,6 +68,13 @@ The model performance is evaluated based on:
  [   5    5    7    5    1    4    8    4  943    5]
  [   1    0    0    2    6    4    0    8    3  978]]
 ```
+### 📊 Accuracy Plot
+![Training and Validation Accuracy](Accuracy%20of%20the%20training%20and%20test%20data.png)
+
+### 📉 Loss Plot
+![Training and Validation Loss](Loss%20after%20each%20Epoch.png)
+
+
 
 ## 🔗 References
 📖 [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)  
